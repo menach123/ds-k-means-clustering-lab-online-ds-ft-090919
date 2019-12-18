@@ -213,9 +213,7 @@ You'll find the `calinski_harabaz_score()` function inside the `metrics` module,
 metrics.calinski_harabaz_score(X,labels)
 ```
 
-    C:\Users\FlatIron_User\.conda\envs\learn-env\lib\site-packages\sklearn\utils\deprecation.py:85: DeprecationWarning: Function calinski_harabaz_score is deprecated; Function 'calinski_harabaz_score' has been renamed to 'calinski_harabasz_score' and will be removed in version 0.23.
-      warnings.warn(msg, category=DeprecationWarning)
-    
+ 
 
 
 
@@ -229,10 +227,7 @@ Now, call it for the model with 6 clusters, so that we can compare the scores fo
 
 ```python
 metrics.calinski_harabaz_score(X,labels_6)
-```
 
-    C:\Users\FlatIron_User\.conda\envs\learn-env\lib\site-packages\sklearn\utils\deprecation.py:85: DeprecationWarning: Function calinski_harabaz_score is deprecated; Function 'calinski_harabaz_score' has been renamed to 'calinski_harabasz_score' and will be removed in version 0.23.
-      warnings.warn(msg, category=DeprecationWarning)
     
 
 
